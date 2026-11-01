@@ -1,0 +1,90 @@
+HTML
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Global Daily News</title>
+</head>
+<body>
+
+    <header>
+        <center>
+            <h1>Global Daily News</h1>
+            <p>Your Trusted Source for Latest Updates</p>
+        </center>
+        <hr>
+
+        <center>
+            <nav>
+                <a href="#world">World</a> |
+                <a href="#sports">Sports</a> |
+                <a href="#entertainment">Entertainment</a> |
+                <a href="#podcast">Podcast</a> |
+                <a href="#contact">Contact</a>
+            </nav>
+        </center>
+        <hr>
+    </header>
+
+    <section id="world">
+        <h3>World News</h3>
+        <p>Today's top headline: Global leaders meet to discuss climate change initiatives.</p>
+
+        <img src="https://placehold.co/400x200/c62828/ffffff?text=BBC+WORLD+NEWS"
+             alt="BBC World News" width="400" height="200">
+
+        <p>
+            <a href="https://www.bbc.com/news" target="_blank">
+                Read more on BBC
+            </a>
+        </p>
+    </section>
+
+    <hr>
+
+    <section id="sports">
+        <h3>Sports Update</h3>
+        <p>Highlights of yesterday's football match with thrilling last-minute goals!</p>
+
+        <iframe width="400" height="225"
+            src="https://www.youtube.com/embed/ysz5S6PUM-U"
+            title="Sports Highlights"
+            allowfullscreen>
+        </iframe>
+    </section>
+
+    <hr>
+
+    <section id="entertainment">
+        <h3>Entertainment Buzz</h3>
+        <p>New movie trailer released today. Fans are excited!</p>
+
+        <video width="400" height="225" controls>
+            <source src="movie.mp4" type="video/mp4">
+            Your browser does not support video.
+        </video>
+    </section>
+
+    <hr>
+
+    <section id="podcast">
+        <h3>News Podcast</h3>
+        <p>Listen to the latest news podcast.</p>
+
+        <audio controls>
+            <source src="podcast.mp3" type="audio/mpeg">
+            Your browser does not support audio.
+        </audio>
+    </section>
+
+    <hr>
+
+    <footer id="contact">
+        <h3>Contact</h3>
+        <p>Email: news@example.com</p>
+        <p>&copy; 2026 Global Daily News</p>
+        <a href="#">Back to Top</a>
+    </footer>
+
+</body>
+</html>
